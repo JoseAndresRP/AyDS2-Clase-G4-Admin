@@ -1,0 +1,15 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-paginaadmin-dev-100945-authRole",
+      "UnauthRoleArn": "arn:aws:iam::583155125108:role/amplify-paginaadmin-dev-100945-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::583155125108:role/amplify-paginaadmin-dev-100945-authRole",
+      "Region": "us-east-2",
+      "DeploymentBucketName": "amplify-paginaadmin-dev-100945-deployment",
+      "UnauthRoleName": "amplify-paginaadmin-dev-100945-unauthRole",
+      "StackName": "amplify-paginaadmin-dev-100945",
+      "StackId": "arn:aws:cloudformation:us-east-2:583155125108:stack/amplify-paginaadmin-dev-100945/8f558b80-ec6d-11ea-9536-06064b18855e",
+      "AmplifyAppId": "d3v8p2hnqx5x0"
+    }
+  }
+}

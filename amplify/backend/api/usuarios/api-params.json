@@ -1,0 +1,35 @@
+{
+    "paths": [
+        {
+            "name": "/usuarios",
+            "lambdaFunction": "usuarios",
+            "privacy": {
+                "open": true
+            },
+            "policyResourceName": "/usuarios"
+        }
+    ],
+    "resourceName": "usuarios",
+    "apiName": "usuarios",
+    "functionArns": [
+        {
+            "lambdaFunction": "usuarios"
+        }
+    ],
+    "privacy": {
+        "auth": 0,
+        "unauth": 0,
+        "authRoleName": "amplify-paginaadmin-dev-100945-authRole",
+        "unAuthRoleName": "amplify-paginaadmin-dev-100945-unauthRole"
+    },
+    "dependsOn": [
+        {
+            "category": "function",
+            "resourceName": "usuarios",
+            "attributes": [
+                "Name",
+                "Arn"
+            ]
+        }
+    ]
+}
