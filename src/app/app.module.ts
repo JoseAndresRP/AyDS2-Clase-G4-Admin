@@ -20,6 +20,9 @@ import { FakeDbService } from 'app/fake-db/fake-db.service';
 import { AppComponent } from 'app/app.component';
 import { AppStoreModule } from 'app/store/store.module';
 import { LayoutModule } from 'app/layout/layout.module';
+import { AmplifyUIAngularModule } from '@aws-amplify/ui-angular';
+
+
 
 const appRoutes: Routes = [
     {
@@ -57,6 +60,7 @@ const appRoutes: Routes = [
         AppComponent
     ],
     imports     : [
+        AmplifyUIAngularModule,
         BrowserModule,
         BrowserAnimationsModule,
         HttpClientModule,

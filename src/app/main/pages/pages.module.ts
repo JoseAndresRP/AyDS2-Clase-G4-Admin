@@ -1,5 +1,5 @@
 import { NgModule } from '@angular/core';
-
+import { Admin_userModule } from 'app/main/pages/authentication/admin_user/admin_user.module';
 import { LoginModule } from 'app/main/pages/authentication/login/login.module';
 import { Login2Module } from 'app/main/pages/authentication/login-2/login-2.module';
 import { RegisterModule } from 'app/main/pages/authentication/register/register.module';
@@ -26,6 +26,7 @@ import { KnowledgeBaseModule } from 'app/main/pages/knowledge-base/knowledge-bas
 @NgModule({
     imports: [
         // Authentication
+        Admin_userModule,
         LoginModule,
         Login2Module,
         RegisterModule,
